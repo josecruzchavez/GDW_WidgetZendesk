@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="gdwmarketing">
+            <tab>gdwcore</tab>
+            <group id="zendesk" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Widget Zendesk</label>
+                <field id="enable" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Activar Zendesk?</label>
+                    <config_path>gdw/seo_zendesk/enable</config_path>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="key" translate="label comment" type="text" sortOrder="11" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Zendesk Key</label>
+                    <config_path>gdw/seo_zendesk/key</config_path>
+                </field>
+                <field id="delay_time" translate="label comment" type="text" sortOrder="11" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Retrazo en segundos</label>
+                    <config_path>gdw/seo_zendesk/delay_time</config_path>
+                    <comment>El widget se incrusta después del evento doomReady! más los segundos declarados</comment>
+                    <validate>validate-digits validate-zero-or-greater</validate>
+                </field>
+                <field id="enable_checkout" translate="label comment" type="select" sortOrder="12" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Mostrar Widget en Checkout</label>
+                    <config_path>gdw/seo_zendesk/enable_checkout</config_path>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="exclude_extraclass" translate="label comment" type="textarea" sortOrder="13" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Prevenir activación de Chat</label>
+                    <config_path>gdw/seo_zendesk/exclude_extraclass</config_path>
+                    <comment>Agregar una clase por linea, si se detecta una de estas clases en la tag body, el chat no se cargará, no agregar el punto inicial de la clase</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

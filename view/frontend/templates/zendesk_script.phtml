@@ -1,0 +1,4 @@
+<?php $key = $block->getKey(); $delay = $block->getDelay(); $excludeLoad = $block->getExcludeLoad(); $enableCheckout = $block->getEnableCheckout(); ?>
+<script>require(['jquery', 'domReady!'], function($){ var _zendeskLoad = true; var _zendeskDelay = <?php echo $delay; ?>; var _excludeLoad = <?= json_encode($excludeLoad) ?>; var _zendeskEnableCheckout = <?php echo $enableCheckout; ?>;
+var _zendeskUrl = 'https://static.zdassets.com/ekr/snippet.js?key='+'<?php echo $key ?>'; if($('body').hasClass('checkout-index-index') && _zendeskEnableCheckout == 0){_zendeskLoad = false;} $.each(_excludeLoad, function(i,v){if($('body').hasClass(v)){_zendeskLoad = false;}});
+if(_zendeskLoad == true){ setTimeout(function(){var tag = document.createElement('script'); tag.async = true; tag.src = _zendeskUrl; tag.setAttribute("id", "ze-snippet"); tag.setAttribute("type", "text/javascript"); document.head.appendChild(tag);console.log('zendesk Loaded');}, _zendeskDelay);}});</script>
