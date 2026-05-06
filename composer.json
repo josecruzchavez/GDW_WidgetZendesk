@@ -1,36 +1,37 @@
 {
     "name": "gdw/widgetzendesk",
-    "description": "Módulo Zendesk Zopim GDW Para Magento 2",
+    "description": "M\u00f3dulo Zendesk Zopim GDW Para Magento 2",
     "type": "magento2-module",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "proprietary",
     "authors": [
-      {
-        "name": "José Cruz Chávez",
-        "email": "jcruz@gdw.mx",
-        "homepage": "https://gdw.mx",
-        "role": "Developer"
-      }
+        {
+            "name": "Jos\u00e9 Cruz Ch\u00e1vez",
+            "email": "jcruz@gdw.mx",
+            "homepage": "https://gdw.mx",
+            "role": "Developer"
+        }
     ],
     "minimum-stability": "dev",
     "keywords": [
-      "magento 2",
-      "gestion digital web",
-      "gdw",
-      "zendesk",
-      "zipim",
-      "chat"
+        "magento 2",
+        "gestion digital web",
+        "gdw",
+        "zendesk",
+        "zipim",
+        "chat"
     ],
     "require": {
-      "php": "^7.2||^8.0",
-      "gdw/core": "^2.0"
+        "php": ">=7.4 <8.3",
+        "gdw/core": "^3.0",
+        "magento/framework": ">=102.0.0 <104.0.0"
     },
     "autoload": {
-      "files": [
-        "registration.php"
-      ],
-      "psr-4": {
-        "GDW\\WidgetZendesk\\": ""
-      }
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "GDW\\WidgetZendesk\\": ""
+        }
     }
-  }
+}
