@@ -15,7 +15,7 @@ Agrega de forma sencilla el chat de zendesk o zopim en tu Magento.
 
 
 ## Compatibilidad
-✓ Magento 2.3.x, ✓ Magento 2.4.x
+✓ Magento 2.4.0 a 2.4.3 (rama 4.x)
 
 ###### Ejecuta los siguientes comandos en la ruta base de Magento.
 
