@@ -1,7 +1,9 @@
-![gdw_opengraph](https://php.gdw.mx/github_assets/gdw_widgetzendesk/gdw_widgetzendesk_01.jpg)
+![gdw_opengraph](https://medios.gdw.mx/github_assets/gdw_widgetzendesk/gdw_widgetzendesk_01.jpg)
 
 # GDW_WidgetZendesk
-[![Latest Stable Version](http://poser.pugx.org/gdw/widgetzendesk/v?style=for-the-badge)](https://packagist.org/packages/gdw/widgetzendesk) [![Total Downloads](http://poser.pugx.org/gdw/widgetzendesk/downloads?style=for-the-badge)](https://packagist.org/packages/gdw/widgetzendesk) [![PHP Version Require](http://poser.pugx.org/gdw/widgetzendesk/require/php?style=for-the-badge)](https://packagist.org/packages/gdw/widgetzendesk)
+[![Latest Stable Version](https://img.shields.io/packagist/v/gdw/widgetzendesk?style=for-the-badge)](https://packagist.org/packages/gdw/widgetzendesk) [![PHP Version Require](https://img.shields.io/packagist/dependency-v/gdw/widgetzendesk/php?style=for-the-badge)](https://packagist.org/packages/gdw/widgetzendesk) [![Magento Framework Require](https://img.shields.io/packagist/dependency-v/gdw/widgetzendesk/magento%2Fframework?style=for-the-badge)](https://packagist.org/packages/gdw/widgetzendesk) [![License](https://img.shields.io/packagist/l/gdw/widgetzendesk?style=for-the-badge)](https://packagist.org/packages/gdw/widgetzendesk)
+
+
 
 Agrega de forma sencilla el chat de zendesk o zopim en tu Magento.
 
