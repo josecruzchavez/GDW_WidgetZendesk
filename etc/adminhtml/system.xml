@@ -3,7 +3,11 @@
     <system>
         <section id="gdwmarketing">
             <tab>gdwcore</tab>
-            <group id="zendesk" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+            <group id="gdwcoreabout" type="text" translate="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Acerca de</label>
+                <frontend_model>GDW\Core\Block\Adminhtml\System\Core\GlobalAds</frontend_model>
+            </group>
+            <group id="zendesk" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Widget Zendesk</label>
                 <field id="enable" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Activar Zendesk?</label>
