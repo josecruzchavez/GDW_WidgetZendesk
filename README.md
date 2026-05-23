@@ -68,3 +68,11 @@ php bin/magento cache:flush
 * [Listado de Módulos](https://gdw.mx/modulos/)
 * [Facebook](https://www.facebook.com/GestionDigitalWeb)
 * [Youtube](https://www.youtube.com/c/Gestiondigitalweb)
+
+### Documentación
+
+- [https://docs.gdw.mx/modulos/gdw_widgetzendesk](https://docs.gdw.mx/modulos/gdw_widgetzendesk)
+
+### Changelog
+
+- [https://docs.gdw.mx/modulos/gdw_widgetzendesk/changelog](https://docs.gdw.mx/modulos/gdw_widgetzendesk/changelog)
