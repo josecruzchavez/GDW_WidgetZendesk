@@ -4,6 +4,9 @@
 [![Latest Stable Version](https://img.shields.io/packagist/v/gdw/widgetzendesk?style=for-the-badge)](https://packagist.org/packages/gdw/widgetzendesk) [![PHP Version Require](https://img.shields.io/packagist/dependency-v/gdw/widgetzendesk/php?style=for-the-badge)](https://packagist.org/packages/gdw/widgetzendesk) [![Magento Framework Require](https://img.shields.io/packagist/dependency-v/gdw/widgetzendesk/magento%2Fframework?style=for-the-badge)](https://packagist.org/packages/gdw/widgetzendesk) [![License](https://img.shields.io/packagist/l/gdw/widgetzendesk?style=for-the-badge)](https://packagist.org/packages/gdw/widgetzendesk)
 
 
+
+
+
 Agrega de forma sencilla el chat de zendesk o zopim en tu Magento.
 
 * Habilita preconnect.
@@ -69,10 +72,12 @@ php bin/magento cache:flush
 * [Facebook](https://www.facebook.com/GestionDigitalWeb)
 * [Youtube](https://www.youtube.com/c/Gestiondigitalweb)
 
+
 ### Documentación
 
 - [https://docs.gdw.mx/modulos/gdw_widgetzendesk](https://docs.gdw.mx/modulos/gdw_widgetzendesk)
 
 ### Changelog
+Consulta el changelog del módulo en:
 
 - [https://docs.gdw.mx/modulos/gdw_widgetzendesk/changelog](https://docs.gdw.mx/modulos/gdw_widgetzendesk/changelog)
