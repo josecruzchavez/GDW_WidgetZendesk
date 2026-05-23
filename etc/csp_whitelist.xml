@@ -9,6 +9,7 @@
         <policy id="connect-src">
             <values>
                <value id="zdassets-static" type="host">https://static.zdassets.com</value>
+               <value id="zdassets-ekr" type="host">https://ekr.zdassets.com</value>
             </values>
         </policy>
         <policy id="frame-src">
