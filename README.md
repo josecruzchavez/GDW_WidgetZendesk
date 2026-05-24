@@ -1,4 +1,4 @@
-![gdw_opengraph](https://medios.gdw.mx/github_assets/gdw_widgetzendesk/gdw_widgetzendesk_01.jpg)
+![gdw_widgetzendesk](https://medios.gdw.mx/github_assets/gdw_widgetzendesk/gdw_widgetzendesk_01.jpg)
 
 # GDW_WidgetZendesk
 [![Latest Stable Version](https://img.shields.io/packagist/v/gdw/widgetzendesk?style=for-the-badge)](https://packagist.org/packages/gdw/widgetzendesk) [![PHP Version Require](https://img.shields.io/packagist/dependency-v/gdw/widgetzendesk/php?style=for-the-badge)](https://packagist.org/packages/gdw/widgetzendesk) [![Magento Framework Require](https://img.shields.io/packagist/dependency-v/gdw/widgetzendesk/magento%2Fframework?style=for-the-badge)](https://packagist.org/packages/gdw/widgetzendesk) [![License](https://img.shields.io/packagist/l/gdw/widgetzendesk?style=for-the-badge)](https://packagist.org/packages/gdw/widgetzendesk)
@@ -19,7 +19,9 @@ Agrega de forma sencilla el chat de zendesk o zopim en tu Magento.
 
 
 ## Compatibilidad
-✓ Magento 2.4.4+ (rama 4.4.x)
+- Rama 4.4.x: Magento 2.4.4+ con PHP 8.1 a 8.3
+- Rama 4.x: Magento 2.4.0 a 2.4.3 con PHP 7.4
+- Rama 3.x: Magento 2.3.x con PHP 7.4
 
 ###### Ejecuta los siguientes comandos en la ruta base de Magento.
 
